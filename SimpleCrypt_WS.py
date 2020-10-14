@@ -1,12 +1,12 @@
 from flask import Flask, request, flash, redirect, url_for, jsonify
 from werkzeug.utils import secure_filename
-from flask_restful import reqparse, Api,Resource, fields, marshal_with
+from flask_restful import reqparse, Api, Resource, fields, marshal_with
 from flask_restful_swagger import swagger
 import pdb
 import json
 import base64
 import time         
-from SimpleCrypt import CryptTools
+from simplecrypttools import CryptTools
 
 app = Flask(__name__)
 #api = Api(app)
