@@ -8,8 +8,10 @@
 * generate RSA key pairs  
 * Encrypt data using RSA key pair  
 * Decrypt data using RSA key pair  
- 
-Run the container:
+
+Docker HUB: https://hub.docker.com/r/talziv/simplecrypt_ws
+
+Run as container:
 
     docker run --rm -p 9999:80 talziv/simplecrypt_ws:latest
 
