@@ -5,7 +5,7 @@
 
  SimpleCrypt_WS is a REST service that allows you to:  
   
-* generate RSA key pairs  
+* Generate RSA key pairs  
 * Encrypt data using RSA key pair  
 * Decrypt data using RSA key pair  
 
